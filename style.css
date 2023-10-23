@@ -137,7 +137,7 @@ kbd {
 	background-color: #ddd;
 	padding: 4px 6px;
 	border-radius: 2px;
-	color: ;
+	
 }
 
 address {
@@ -234,7 +234,7 @@ button:focus {
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 	width: 150px;
-	color: #fff;
+	color: black;
 }
 
 .mu-send-msg-btn:hover,
@@ -259,19 +259,22 @@ button:focus {
 	padding: 25px 0;
 	z-index: 999;
 	transition: all 0.5s;
+	border-bottom: 1px solid #E2D7D3;
+	box-shadow: 4px 4px 20px rgba(0,0,0,.1);
 }
 
 .navbar-default .navbar-brand {
-	color: #fff;
+	color: black;
 	font-size: 35px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	margin-top: -11px;
+	
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-	color: #fff;
+	color: black;
 }
 
 .navbar-brand img{
@@ -302,25 +305,26 @@ button:focus {
 
 .navbar-default .mu-menu li a {
 	border-bottom: 2px solid transparent;
-	color: #fff;
+	color: black;
 	font-size: 15px;
 	font-weight: 400;
 	padding: 0 0 5px;
 	margin: 10px 15px 5px;
 	transition: all 0.5s;
 	position: relative;
+	
 }
 
 .navbar-default .mu-menu li a:hover,
 .navbar-default .mu-menu li a:focus {
-	color: #fff;
+	color:black;
 }
 
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:focus, 
 .navbar-default .navbar-nav > .active > a:hover{
 	background-color: transparent;
-	color: #fff;
+	color: black;
 }
 
 .navbar-default .mu-menu li a:after {
@@ -357,35 +361,38 @@ button:focus {
 	display: inline;
 	float: left;
 	width: 100%;
+	margin-left: 14px;
+
 }
 
 .mu-hero-right {
 	display: inline;
-	float: left;
-	width: 100%;
+	float: center;
+	width: 100px;
 }
 
 .mu-hero-left h1 {
-	color: #fff;
+	color: black;
 	font-size: 50px;
 	margin-bottom: 20px;
+	margin-top: 25px;
 }
 
 .mu-hero-left p {
-	color: #fff;
+	color: black;
 	margin-bottom: 20px;
 }
 
 .mu-hero-left .mu-primary-btn {
 	margin-top: 20px;
-	background-color: #fff;
+	background-color: black;
 	font-weight: 600;
 }
 
 .mu-hero-left span {
 	display: block;
 	margin-top: 10px;
-	color: #f8f8f8;
+	color: black;
 }
 
 
@@ -469,7 +476,8 @@ button:focus {
 .mu-book-overview-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	width: 100%;
 }
 
@@ -482,7 +490,7 @@ button:focus {
 }
 
 .mu-heading-title {
-	color: #1c1b1b;
+	color: black;
 	margin-bottom: 15px;
 	position: relative;
 }
@@ -492,13 +500,13 @@ button:focus {
 	height: 3px;
 	width: 100px;
 	display: inline-block;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .mu-book-overview-content{
 	display: inline;
 	float: left;
-	margin-top: 70px;
+	margin-top: 20px;
 	width: 100%;
 }
 
@@ -510,6 +518,7 @@ button:focus {
 	background: #fff;
 	padding: 20px 10px;
 	margin: 10px 0 15px;
+	cursor: pointer;
 }
 
 .mu-book-overview-icon-box {
@@ -530,7 +539,7 @@ button:focus {
 
 
 #mu-video-review {
-	background-image: url(assets/images/video-review-bg.jpeg);
+	/* background-image: url(assets/images/video-review-bg.jpeg); */
 	background-attachment: fixed;
 	background-size: cover;
 	display: inline;
@@ -552,17 +561,17 @@ button:focus {
 .mu-video-review-area {
 	display: inline;
 	float: left;
-	padding: 150px 0;
+	padding: 70px 0;
 	width: 100%;
 }
 
 .mu-video-review-area .mu-heading-title, 
 .mu-video-review-area .mu-heading-area p{
-	color: #fff;
+	color: black;
 }
 
 .mu-video-review-area .mu-header-dot {
-	background-color: #f8f8f8;
+	background-color: black;
 }
 
 .mu-video-review-content {
